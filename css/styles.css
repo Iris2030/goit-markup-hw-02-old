@@ -42,12 +42,9 @@ body {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.link.current {
   color: var(--accent-color);
-}
-
-.site-nav .current {
-  color: var(-accent-color);
 }
 
 /*contacts*/
@@ -84,7 +81,7 @@ body {
   cursor: pointer;
 }
 
-.button.primary .hero-title {
+.hero-title {
   color: var(--main-background-colore);
   /*поставила на время цвет фона что бы было видно белые буквы*/
   background-color: var(--main-text-coor);
