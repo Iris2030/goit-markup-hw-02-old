@@ -1,0 +1,199 @@
+:root {
+  --main-text-coor: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --main-background-colore: #ffffff;
+  --secondary-background-colore: #f5f4fa;
+}
+
+body {
+  color: var(--main-text-coor);
+  background-color: var(--main-background-colore);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+/*page-nav */
+.site-logo {
+  color: var(--title-text-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .current {
+  color: var(-accent-color);
+}
+
+/*contacts*/
+.auth-nav .link {
+  color: var(--main-text-coor);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/*hero section*/
+.button.primary {
+  color: var(--main-background-colore);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.button.primary:hover,
+.button.primary:focus {
+  background-color: #188ce8;
+}
+
+.button.primary {
+  cursor: pointer;
+}
+
+.button.primary .hero-title {
+  color: var(--main-background-colore);
+  /*поставила на время цвет фона что бы было видно белые буквы*/
+  background-color: var(--main-text-coor);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/*aspects section*/
+.text-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.aspects-text {
+  color: var(--main-text-coor);
+}
+
+/*our team, what we do section titles*/
+.section-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.our-team-section {
+  background-color: var(--secondary-background-colore);
+}
+
+.team-list-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+/*footer address*/
+
+.address {
+  /*временно что бы было видно белые буквы*/
+  background-color: var(--main-text-coor);
+  color: var(--main-background-colore);
+}
+
+.address .address-list-item {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address .address-list-item:hover,
+.address .address-list-item:focus {
+  color: var(--accent-color);
+}
+
+/*portfolio page*/
+
+.button.secondary {
+  font-family: inherit;
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-colore);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+  background-color: var(--accent-color);
+  color: var(--main-background-colore);
+}
+
+.button.secondary {
+  cursor: pointer;
+}
+
+.portfolio-list-item,
+.address-list-item {
+  text-decoration: none;
+}
+
+.portfolio-block-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-block-text {
+  color: var(--main-text-coor);
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/* цвет заголовков #212121 */
+/* белый цвет #FFFFFF*/
+/* акцент #2196F3*/
+/* цвет текста  #757575 */
+/* вторичный цвет  фона #F5F4FA */
