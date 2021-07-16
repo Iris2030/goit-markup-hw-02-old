@@ -134,10 +134,15 @@ body {
 
 /*footer address*/
 
+.logo-footer {
+  color: var(--main-background-colore);
+}
+
 .address {
   /*временно что бы было видно белые буквы*/
   background-color: var(--main-text-coor);
   color: var(--main-background-colore);
+  font-style: normal;
 }
 
 .address .address-list-item {
